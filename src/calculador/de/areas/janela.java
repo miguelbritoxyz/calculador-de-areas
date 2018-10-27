@@ -185,7 +185,13 @@ public class janela extends javax.swing.JFrame {
             resultado = (num1 * num2) / 2;
         }
         
-        tela.setText(resultado + " metros quadrados");
+        String textoFinal = " metros quadrados";
+        
+        if(resultado == 1){
+            textoFinal = " metro quadrado";
+        }
+        
+        tela.setText(resultado + textoFinal);
         
     }    
         
