@@ -1,13 +1,13 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * This software calculates the triangle or rectangle area
  */
 package calculador.de.areas;
 
 /**
  *
- * @author Max Brito
+ * @author Miguel Brito
+ * @date 2018-10-26
+ * @location Coimbra, Portugal
  */
 public class janela extends javax.swing.JFrame {
 
